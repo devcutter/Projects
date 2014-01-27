@@ -1,0 +1,10 @@
+{
+  "modId" : 206,
+  "modName" : "molybdenite",
+  "frames" : "molybdenite.png",
+  "variants" : 8,
+  "itemDrop" : "molybdeniteore",
+  "Description" : "Molybdenite. Melting to molybdenum",
+  "health" : 2,
+  "breaksWithTile" : true
+}

@@ -1,0 +1,10 @@
+{
+  "modId" : 207,
+  "modName" : "magnesite",
+  "frames" : "magnesite.png",
+  "variants" : 8,
+  "itemDrop" : "magnesiteore",
+  "Description" : "Magnesite. Melting to magnesium.",
+  "health" : 2,
+  "breaksWithTile" : true
+}

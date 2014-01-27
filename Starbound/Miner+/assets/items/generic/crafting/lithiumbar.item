@@ -1,0 +1,7 @@
+{
+  "itemName" : "lithiumbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "lithiumbar.png",
+  "description" : "It's a lithium bar.",
+  "shortdescription" : "Lithium Bar"
+}

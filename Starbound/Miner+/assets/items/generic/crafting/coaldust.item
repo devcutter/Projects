@@ -1,0 +1,8 @@
+{
+  "itemName" : "coaldust",
+  "rarity" : "Common",
+  "inventoryIcon" : "coaldust.png",
+  "description" : "Crushed Coal",
+  "shortdescription" : "Coal Dust",
+  "learnBlueprintsOnPickup" : [ "" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "monaziteore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "rareearthmetalsdust",
+    "count" : 2
+  },
+  "groups" : [ "Macerator", "all" ]
+}

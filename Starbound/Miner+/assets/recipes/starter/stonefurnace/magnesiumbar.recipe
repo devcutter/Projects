@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "magnesiteore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "magnesiumbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

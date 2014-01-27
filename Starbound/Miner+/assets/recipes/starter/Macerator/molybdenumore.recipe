@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "molybdeniteore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "molybdenumdust",
+    "count" : 2
+  },
+  "groups" : [ "Macerator", "all" ]
+}

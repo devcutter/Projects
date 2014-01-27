@@ -1,0 +1,10 @@
+{
+  "modId" : 100,
+  "modName" : "tinore",
+  "frames" : "tinore.png",
+  "variants" : 8,
+  "itemDrop" : "tinore",
+  "Description" : "tinore.",
+  "health" : 2,
+  "breaksWithTile" : true
+}

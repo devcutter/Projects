@@ -1,0 +1,10 @@
+{
+  "modId" : 202,
+  "modName" : "sphalerite",
+  "frames" : "sphalerite.png",
+  "variants" : 8,
+  "itemDrop" : "sphaleriteore",
+  "Description" : "Sphalerite ore. Melting to Zinc",
+  "health" : 2,
+  "breaksWithTile" : true
+}

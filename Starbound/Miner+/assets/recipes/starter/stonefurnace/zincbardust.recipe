@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "zincdust", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tinbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

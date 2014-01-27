@@ -1,0 +1,10 @@
+{
+  "modId" : 204,
+  "modName" : "pyrolusite",
+  "frames" : "pyrolusite.png",
+  "variants" : 8,
+  "itemDrop" : "pyrolusiteore",
+  "Description" : "Pyrolusite. Melting to manganese",
+  "health" : 2,
+  "breaksWithTile" : true
+}

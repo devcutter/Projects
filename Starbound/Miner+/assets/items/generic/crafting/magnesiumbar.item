@@ -1,0 +1,7 @@
+{
+  "itemName" : "magnesiumbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "magnesiumbar.png",
+  "description" : "It's a magnesium bar.",
+  "shortdescription" : "Magnesium Bar"
+}

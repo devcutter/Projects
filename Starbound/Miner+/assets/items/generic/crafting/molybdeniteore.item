@@ -1,0 +1,7 @@
+{
+  "itemName" : "molybdeniteore",
+  "rarity" : "Common",
+  "inventoryIcon" : "molybdeniteore.png",
+  "description" : "Molybdenite ore. Melting into molybdenum.",
+  "shortdescription" : "Molybdenite Ore"
+}

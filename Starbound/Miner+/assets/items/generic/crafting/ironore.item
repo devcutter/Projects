@@ -1,0 +1,7 @@
+{
+  "itemName" : "ironore",
+  "rarity" : "Common",
+  "inventoryIcon" : "ironore.png",
+  "description" : "Pyrite ore. Can be used for smelting into iron or repairs. Select ore and right click pickaxe.",
+  "shortdescription" : "Pyrite Ore"
+}

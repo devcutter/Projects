@@ -1,0 +1,10 @@
+{
+  "modId" : 208,
+  "modName" : "monazite",
+  "frames" : "monazite.png",
+  "variants" : 8,
+  "itemDrop" : "monaziteore",
+  "Description" : "Monazite. Melting to rare earth metals.",
+  "health" : 2,
+  "breaksWithTile" : true
+}

@@ -1,0 +1,10 @@
+{
+  "modId" : 200,
+  "modName" : "spodumene",
+  "frames" : "spodumene.png",
+  "variants" : 8,
+  "itemDrop" : "spodumeneore",
+  "Description" : "Spodumene. Melting to lithium",
+  "health" : 2,
+  "breaksWithTile" : true
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "monaziteore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "rareearthmetalsbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

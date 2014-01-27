@@ -1,0 +1,10 @@
+{
+  "modId" : 205,
+  "modName" : "cassiterite",
+  "frames" : "cassiterite.png",
+  "variants" : 8,
+  "itemDrop" : "cassiteriteore",
+  "Description" : "Cassiterite. Melting to tin",
+  "health" : 2,
+  "breaksWithTile" : true
+}

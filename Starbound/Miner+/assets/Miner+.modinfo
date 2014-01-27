@@ -1,0 +1,10 @@
+{
+  "name" : "Miner+",
+  "version" : "Beta v. Furious Koala",
+  "path" : ".",
+  "metadata": {
+    "author" : "Devcutter",
+    "description" : "revamp the ore distribution system you gotta dig deeper to get materials.",
+    "support_url" : "http://trdivision.com/forum/m/18131284/viewthread/10772925-miner/page/1"
+        }
+}

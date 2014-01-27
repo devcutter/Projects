@@ -1,0 +1,10 @@
+{
+  "modId" : 201,
+  "modName" : "galena",
+  "frames" : "galena.png",
+  "variants" : 8,
+  "itemDrop" : "galenaore",
+  "Description" : "Galena. Melting to lead.",
+  "health" : 2,
+  "breaksWithTile" : true
+}

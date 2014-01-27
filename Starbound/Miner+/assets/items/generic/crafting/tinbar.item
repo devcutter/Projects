@@ -1,0 +1,8 @@
+{
+  "itemName" : "tinbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "tinbar.png",
+  "description" : "It's a Tin Bar",
+  "shortdescription" : "Tin Bar",
+  "learnBlueprintsOnPickup" : [ "bronzeblend", "emptycell" ]
+}

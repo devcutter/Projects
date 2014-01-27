@@ -1,0 +1,118 @@
+Mineraltable:
+-------------
+Legend: "-" = nothing changed
+
+
+Mineral		Element	  	 ID			 depth				tier		Oredistrib		Biomes		collor				stone picture	ore picture		Bar Picture 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=> Old minerals (unchanged)
+
+Sulfur		 S			  -	-			-				-				Done			?		- (yellow)		 		 -				-		     -
+Silver		 Ag			  -	-			-				-				Done			?		- (silver)		 		 -				-		     -		
+Gold		 Au			  -	-			-				-				Done			?		- (gold)		 		 -				-		     -		
+Platinum	 Pt			  -	-			-				-				Done			?		- (white)		 		 -				-		     -
+Rubium		 -			  -	-			-				-				Done			?		- (red)			 		 -				-		     -
+Solarium	 -			  -	-			-				-				Done			?		- (gold-yellow)			 -				-		     -
+Uranium		 U	 		  -	-			-				-				Done			?		- (kelly-green)			 -				-		     -
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=> Old minerals (only discribtion changed)
+
+Pyrite		 Fe	  		  -	-			-				-				Done			?		- (brown-gray)			  -				-		     yes
+Chalcocite	 Cu	 		  -	-			-				-				Done			?		- (orange-red)			  -				-		     yes
+Rutile		 Ti	          -	-			-				-				Done			?		- (white)				  -				-		     yes
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=> New minerals
+		 
+Spodumene	 Li			  200	subSf - depth2		4.5 - 9.5			added			arid	- transparent-pink		yes				yes		     no
+Galena		 Pb	 		  201	deepSf - depth2		2.5 - 9.5			added			?		- lead-gray				yes				yes		     no
+Sphalerite	 Zn	 		  202	subSf - depth1		3.5 - 9.5			added			?		- red-brown		 		yes				yes		     no
+Gibbsite	 Al			  203	Sf and subSf		0.5 - 9.5			added			forest	- greeny				yes				yes		     no
+Pyrolusite	 Mn			  204	deepSf - depth2		4.5 - 9.5			added			?		- silver-black			yes				yes		     no
+Cassiterite	 Sn			  205	subSf - deepSf		0.5 - 9.5			added			?		- blackbrown			yes				yes		     no
+Molybdenite  Mo			  206	depth1 - depth3		4.5 - 9.5			added			?		- blue/violett			yes				yes		     no
+Magnesite	 Mg	 		  207	deapSf - depth2		7.5 - 9.5			added			?		- dark yellow			yes				yes		     no
+Monazite	 rare 	      208	depth2 - depth3		7.5 - 9.5			added			?		- gelb			 	 	yes				yes		     no
+Tinore		 tin		  100	sf - depth3			0.5 - 9.5			added			?		- greyish				yes				yes		     yes
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Oredistributions-File:
+  "surfaceOres" : [
+    [0.5, [ [ "coal", 1.00], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.00], [ "diamond", 0.00], [ "iron",     0.95], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [1.5, [ [ "coal", 1.00], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.00], [ "iron",     0.95], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [2.5, [ [ "coal", 1.00], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "titanium", 0.30], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [3.5, [ [ "coal", 1.00], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "titanium", 0.35], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [4.5, [ [ "coal", 1.00], [ "uranium", 0.45], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "aegisalt", 0.30], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [5.5, [ [ "coal", 1.00], [ "uranium", 0.50], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "aegisalt", 0.35], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [6.5, [ [ "coal", 1.00], [ "uranium", 0.55], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 0.80], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "Cerulium", 0.30], [ "Gibbsite", 0.80], [ "tinore", 0.80] ]],
+    [7.5, [ [ "coal", 1.00], [ "uranium", 0.55], [ "plutonium", 0.15], [ "solarium", 0.00], [ "copper", 0.95], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "Cerulium", 0.35], [ "Gibbsite", 0.90], [ "tinore", 0.95] ]],
+    [8.5, [ [ "coal", 1.00], [ "uranium", 0.60], [ "plutonium", 0.20], [ "solarium", 0.00], [ "copper", 1.00], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "Rubium",   0.30], [ "Gibbsite", 0.95], [ "tinore", 1.00] ]],
+    [9.5, [ [ "coal", 1.00], [ "uranium", 0.65], [ "plutonium", 0.25], [ "solarium", 0.05], [ "copper", 1.05], [ "silverore", 0.65], [ "gold", 0.50], [ "platinum", 0.25], [ "diamond", 0.05], [ "Rubium",   0.35], [ "Gibbsite", 1.00], [ "tinore", 1.05] ]]	
+	
+  ],
+
+  "subsurfaceOres" : [
+    [0.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.00], [ "silverore", 0.70], [ "gold", 0.55], [ "platinum", 0.25], [ "diamond", 0.15], [ "iron",     1.10], [ "Gibbsite", 0.85], [ "Cassiterite", 0.75], [ "tinore", 1.00] ]],
+    [1.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.00], [ "silverore", 0.70], [ "gold", 0.55], [ "platinum", 0.35], [ "diamond", 0.25], [ "iron",     1.20], [ "Gibbsite", 0.85], [ "Cassiterite", 0.75], [ "tinore", 1.00] ]],
+    [2.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.00], [ "silverore", 0.70], [ "gold", 0.55], [ "platinum", 0.35], [ "diamond", 0.25], [ "titanium", 1.10], [ "Gibbsite", 0.85], [ "Cassiterite", 0.75], [ "tinore", 1.00] ]],
+    [3.5, [ [ "coal", 1.15], [ "uranium", 0.00], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.10], [ "silverore", 0.75], [ "gold", 0.60], [ "platinum", 0.40], [ "diamond", 0.30], [ "titanium", 1.20], [ "Gibbsite", 0.95], [ "Cassiterite", 0.85], [ "sphalerite", 0.00], [ "tinore", 1.10] ]],
+    [4.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.10], [ "silverore", 0.75], [ "gold", 0.60], [ "platinum", 0.40], [ "diamond", 0.30], [ "aegisalt", 0.50], [ "Gibbsite", 0.95], [ "Cassiterite", 0.85], [ "spodumene", 0.65], [ "sphalerite", 0.75], [ "tinore", 1.10] ]],
+    [5.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.10], [ "silverore", 0.75], [ "gold", 0.60], [ "platinum", 0.40], [ "diamond", 0.30], [ "aegisalt", 0.60], [ "Gibbsite", 0.95], [ "Cassiterite", 0.85], [ "spodumene", 0.65], [ "sphalerite", 0.75], [ "tinore", 1.10] ]],
+    [6.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 0.00], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 0.80], [ "gold", 0.65], [ "platinum", 0.45], [ "diamond", 0.35], [ "Cerulium", 0.50], [ "Gibbsite", 1.00], [ "Cassiterite", 0.95], [ "spodumene", 0.75], [ "sphalerite", 0.85], [ "tinore", 1.20] ]],
+    [7.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 1.05], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 0.80], [ "gold", 0.65], [ "platinum", 0.50], [ "diamond", 0.35], [ "Cerulium", 0.60], [ "Gibbsite", 1.00], [ "Cassiterite", 0.95], [ "spodumene", 0.75], [ "sphalerite", 0.85], [ "tinore", 1.20] ]],
+    [8.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 1.05], [ "solarium", 0.00], [ "copper", 1.20], [ "silverore", 0.80], [ "gold", 0.65], [ "platinum", 0.55], [ "diamond", 0.35], [ "Rubium",   0.50], [ "Gibbsite", 1.00], [ "Cassiterite", 0.95], [ "spodumene", 0.75], [ "sphalerite", 0.85], [ "tinore", 1.20] ]],
+    [9.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 1.05], [ "solarium", 0.30], [ "copper", 1.20], [ "silverore", 0.95], [ "gold", 0.70], [ "platinum", 0.65], [ "diamond", 0.40], [ "Rubium",   0.60], [ "Gibbsite", 1.00], [ "Cassiterite", 0.95], [ "spodumene", 0.75], [ "sphalerite", 0.85], [ "tinore", 1.20] ]]	
+  ],
+
+  "deepsurfaceOres" : [
+    [0.5, [ [ "coal", 1.15], [ "uranium", 1.00], [ "plutonium", 0.80], [ "solarium", 0.60], [ "copper", 1.10], [ "silverore", 1.00], [ "gold", 0.95], [ "platinum", 0.85], [ "diamond", 0.80], [ "iron",     1.40], [ "Cassiterite", 0.80], [ "tinore", 1.10] ]],
+    [1.5, [ [ "coal", 1.15], [ "uranium", 1.05], [ "plutonium", 0.85], [ "solarium", 0.65], [ "copper", 1.15], [ "silverore", 1.10], [ "gold", 1.00], [ "platinum", 0.90], [ "diamond", 0.85], [ "iron",     1.50], [ "Cassiterite", 0.80], [ "tinore", 1.15] ]],
+    [2.5, [ [ "coal", 1.15], [ "uranium", 1.10], [ "plutonium", 0.90], [ "solarium", 0.70], [ "copper", 1.20], [ "silverore", 1.15], [ "gold", 1.10], [ "platinum", 0.95], [ "diamond", 0.90], [ "titanium", 1.30], [ "Cassiterite", 0.80], [ "Galena", 0.60], [ "tinore", 1.20] ]],
+    [3.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.95], [ "solarium", 0.75], [ "copper", 1.25], [ "silverore", 1.20], [ "gold", 1.15], [ "platinum", 1.00], [ "diamond", 0.95], [ "titanium", 1.40], [ "Cassiterite", 0.90], [ "Galena", 0.60], [ "sphalerite", 0.00], [ "tinore", 1.25] ]],
+    [4.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.95], [ "solarium", 0.80], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.10], [ "diamond", 1.00], [ "aegisalt", 1.00], [ "Cassiterite", 0.90], [ "spodumene", 0.80], [ "Galena", 0.70], [ "sphalerite", 0.85], [ "Pyrolusite", 0.75], [ "tinore", 1.25] ]],
+    [5.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 0.95], [ "solarium", 0.85], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.15], [ "diamond", 1.10], [ "aegisalt", 1.10], [ "Cassiterite", 0.90], [ "spodumene", 0.80], [ "Galena", 0.70], [ "sphalerite", 0.85], [ "Pyrolusite", 0.75], [ "tinore", 1.25] ]],
+    [6.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.95], [ "solarium", 0.90], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.20], [ "diamond", 1.15], [ "Cerulium", 1.00], [ "Cassiterite", 1.00], [ "spodumene", 0.90], [ "Galena", 0.80], [ "sphalerite", 0.95], [ "Pyrolusite", 0.85], [ "tinore", 1.25] ]],
+    [7.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.20], [ "Cerulium", 1.10], [ "Cassiterite", 1.00], [ "spodumene", 0.90], [ "Galena", 0.80], [ "sphalerite", 0.95], [ "Pyrolusite", 0.85], [ "Magnesite", 0.00], [ "tinore", 1.25] ]],
+    [8.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "Rubium",   1.00], [ "Cassiterite", 1.00], [ "spodumene", 0.90], [ "Galena", 0.80], [ "sphalerite", 0.95], [ "Pyrolusite", 0.85], [ "Magnesite", 0.00], [ "tinore", 1.25] ]],
+    [9.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.15], [ "solarium", 1.05], [ "copper", 1.25], [ "silverore", 1.25], [ "gold", 1.25], [ "platinum", 1.25], [ "diamond", 1.25], [ "Rubium",   1.10], [ "Cassiterite", 1.00], [ "spodumene", 0.90], [ "Galena", 0.80], [ "sphalerite", 0.95], [ "Pyrolusite", 0.85], [ "Magnesite", 0.00], [ "tinore", 1.25] ]]	
+  ],
+
+  "depth1" : [
+    [0.5, [ [ "coal", 1.15], [ "uranium", 1.15], [ "plutonium", 1.00], [ "solarium", 0.85], [ "copper", 1.15], [ "silverore", 1.05], [ "gold", 1.00], [ "platinum", 0.90], [ "diamond", 0.85], [ "iron",     1.50], [ "tinore", 1.15] ]],
+    [1.5, [ [ "coal", 1.15], [ "uranium", 1.20], [ "plutonium", 1.05], [ "solarium", 0.90], [ "copper", 1.20], [ "silverore", 1.15], [ "gold", 1.05], [ "platinum", 0.95], [ "diamond", 0.90], [ "iron",     1.60], [ "tinore", 1.20] ]],
+    [2.5, [ [ "coal", 1.15], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.25], [ "silverore", 1.20], [ "gold", 1.15], [ "platinum", 1.00], [ "diamond", 0.95], [ "titanium", 1.50], [ "Galena", 0.70], [ "tinore", 1.25] ]],
+    [3.5, [ [ "coal", 1.10], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.05], [ "diamond", 1.00], [ "titanium", 1.60], [ "Galena", 0.70], [ "sphalerite", 0.00], [ "tinore", 1.30] ]],
+    [4.5, [ [ "coal", 1.10], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.25], [ "platinum", 1.15], [ "diamond", 1.05], [ "aegisalt", 1.20], [ "spodumene", 0.90], [ "Galena", 0.80], [ "sphalerite", 0.95], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.85], [ "tinore", 1.30] ]],
+    [5.5, [ [ "coal", 1.05], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.20], [ "diamond", 1.15], [ "aegisalt", 1.30], [ "spodumene", 0.90], [ "Galena", 0,80], [ "sphalerite", 0.95], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.85], [ "tinore", 1.30] ]],
+    [6.5, [ [ "coal", 1.05], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.25], [ "diamond", 1.20], [ "Cerulium", 1.20], [ "spodumene", 1.00], [ "Galena", 0.90], [ "sphalerite", 1.05], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.95], [ "tinore", 1.30] ]],
+    [7.5, [ [ "coal", 1.00], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.25], [ "Cerulium", 1.30], [ "spodumene", 1.00], [ "Galena", 0.90], [ "sphalerite", 1.05], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.95], [ "Magnesite", 0.75], [ "tinore", 1.30] ]],
+    [8.5, [ [ "coal", 1.00], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "Rubium",   1.20], [ "spodumene", 1.00], [ "Galena", 0.90], [ "sphalerite", 1.05], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.95], [ "Magnesite", 0.80], [ "tinore", 1.30] ]],
+    [9.5, [ [ "coal", 1.00], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.30], [ "silverore", 1.30], [ "gold", 1.30], [ "platinum", 1.30], [ "diamond", 1.30], [ "Rubium",   1.30], [ "spodumene", 1.00], [ "Galena", 0.90], [ "sphalerite", 1.05], [ "Molybdenite", 0.00], [ "Pyrolusite", 0.95], [ "Magnesite", 0.85], [ "tinore", 1.30] ]]
+  ],
+
+  "depth2" : [
+    [0.5, [ [ "coal", 0.90], [ "uranium", 1.20], [ "plutonium", 1.05], [ "solarium", 0.90], [ "copper", 1.20], [ "silverore", 1.10], [ "gold", 1.05], [ "platinum", 0.95], [ "diamond", 0.90], [ "iron",     1.25], [ "tinore", 1.20] ]],
+    [1.5, [ [ "coal", 0.90], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.25], [ "silverore", 1.20], [ "gold", 1.10], [ "platinum", 1.00], [ "diamond", 0.95], [ "iron",     1.35], [ "tinore", 1.25] ]],
+    [2.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.30], [ "silverore", 1.25], [ "gold", 1.20], [ "platinum", 1.05], [ "diamond", 1.00], [ "titanium", 1.25], [ "Galena", 0.80], [ "tinore", 1.35] ]],
+    [3.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.30], [ "gold", 1.25], [ "platinum", 1.10], [ "diamond", 1.05], [ "titanium", 1.35], [ "Galena", 0.80], [ "tinore", 1.35] ]],
+    [4.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.30], [ "platinum", 1.20], [ "diamond", 1.10], [ "aegisalt", 1.25], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 0.95], [ "Molybdenite", 0.00], [ "tinore", 1.35] ]],
+    [5.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.25], [ "diamond", 1.20], [ "aegisalt", 1.35], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 0.95], [ "Molybdenite", 0.00], [ "tinore", 1.35] ]],
+    [6.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.30], [ "diamond", 1.25], [ "Cerulium", 1.25], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 1.05], [ "Molybdenite", 0.00], [ "tinore", 1.35] ]],
+    [7.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.30], [ "Cerulium", 1.35], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 1.05], [ "Molybdenite", 0.00], [ "Magnesite", 0.90], [ "Monazite", 0.75], [ "tinore", 1.35] ]],
+    [8.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "Rubium",   1.25], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 1.05], [ "Molybdenite", 0.00], [ "Magnesite", 1.00], [ "Monazite", 0.80], [ "tinore", 1.35] ]],
+    [9.5, [ [ "coal", 0.90], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.35], [ "silverore", 1.35], [ "gold", 1.35], [ "platinum", 1.35], [ "diamond", 1.35], [ "Rubium",   1.35], [ "spodumene", 1.00], [ "Galena", 0.90], [ "Pyrolusite", 1.05], [ "Molybdenite", 0.00], [ "Magnesite", 1.00], [ "Monazite", 0.85], [ "tinore", 1.35] ]]
+  ],
+
+  "depth3" : [
+    [0.5, [ [ "coal", 0.80], [ "uranium", 1.25], [ "plutonium", 1.10], [ "solarium", 0.95], [ "copper", 1.25], [ "silverore", 1.15], [ "gold", 1.10], [ "platinum", 1.00], [ "diamond", 0.95], [ "iron",     1.30], [ "tinore", 1.25] ]],
+    [1.5, [ [ "coal", 0.80], [ "uranium", 1.30], [ "plutonium", 1.15], [ "solarium", 1.00], [ "copper", 1.30], [ "silverore", 1.25], [ "gold", 1.15], [ "platinum", 0.95], [ "diamond", 1.00], [ "iron",     1.40], [ "tinore", 1.30] ]],
+    [2.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.35], [ "silverore", 1.30], [ "gold", 1.25], [ "platinum", 1.10], [ "diamond", 1.05], [ "titanium", 1.30], [ "tinore", 1.35] ]],
+    [3.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.35], [ "gold", 1.30], [ "platinum", 1.15], [ "diamond", 1.10], [ "titanium", 1.40], [ "tinore", 1.40] ]],
+    [4.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.35], [ "platinum", 1.25], [ "diamond", 1.15], [ "aegisalt", 1.30], [ "Molybdenite", 0.00], [ "tinore", 1.40] ]],
+    [5.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.30], [ "diamond", 1.25], [ "aegisalt", 1.40], [ "Molybdenite", 0.00], [ "tinore", 1.40] ]],
+    [6.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.35], [ "diamond", 1.30], [ "Cerulium", 1.30], [ "Molybdenite", 0.00], [ "tinore", 1.40] ]],
+    [7.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.35], [ "Cerulium", 1.40], [ "Molybdenite", 0.00], [ "Monazite", 0.90], [ "tinore", 1.40] ]],
+    [8.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "Rubium",   1.30], [ "Molybdenite", 0.00], [ "Monazite", 1.00], [ "tinore", 1.40] ]],
+    [9.5, [ [ "coal", 0.80], [ "uranium", 1.35], [ "plutonium", 1.20], [ "solarium", 1.05], [ "copper", 1.40], [ "silverore", 1.40], [ "gold", 1.40], [ "platinum", 1.40], [ "diamond", 1.40], [ "Rubium",   1.40], [ "Molybdenite", 0.00], [ "Monazite", 1.00], [ "tinore", 1.40] ]]
+  ],

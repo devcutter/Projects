@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "manganesedust", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "manganesebar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

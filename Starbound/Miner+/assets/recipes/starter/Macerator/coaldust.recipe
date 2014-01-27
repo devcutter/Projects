@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "coaldust",
+    "count" : 1
+  },
+  "groups" : [ "Macerator", "all" ]
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "ironbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "ironbar.png",
+  "description" : "It's an iron bar. this bar is made out of pyrite.",
+  "shortdescription" : "Iron Bar"
+}

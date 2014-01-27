@@ -1,0 +1,81 @@
+{
+  "objectName" : "macerator",
+  "rarity" : "Common",
+  "description" : "Crush your minerals into dust.",
+  "shortdescription" : "Macerator",
+  "race" : "generic",
+  "subtitle" : "Crush your ores into dust.",
+  "category" : "crafting",
+  "price" : "2800",
+  "objectType" : "container",
+  "printable" : false,
+  "hydrophobic" : true,
+
+  "apexDescription" : "A Macerator.",
+  "avianDescription" : "A Macerator.",
+  "floranDescription" : "A Macerator.",
+  "glitchDescription" : "A Macerator.",
+  "humanDescription" : "A Macerator.",
+  "hylotlDescription" : "A Macerator.",
+
+  "lightColor" : [229, 218, 207],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : "1.0",
+      "color" : [255, 100, 0, 255],
+      "light" : [150, 50, 50],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "Maceratoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Macerator.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+  "soundEffectRadius" : 50,
+
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 80,
+      "range" : 8
+    }
+  ],
+
+  "recipeGroup" : "Macerator",
+  "openSounds" : [ "/sfx/objects/sawblade_touched.wav" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/Macerator.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

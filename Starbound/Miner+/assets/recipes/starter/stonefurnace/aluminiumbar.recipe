@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gibbsiteore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "aluminiumbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

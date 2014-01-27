@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tinore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "tinbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "all" ]
+}

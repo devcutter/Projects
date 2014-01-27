@@ -1,0 +1,10 @@
+{
+  "modId" : 203,
+  "modName" : "gibbsite",
+  "frames" : "gibbsite.png",
+  "variants" : 8,
+  "itemDrop" : "gibbsiteore",
+  "Description" : "Gibbsite ore. Melting to aluminium.",
+  "health" : 2,
+  "breaksWithTile" : true
+}

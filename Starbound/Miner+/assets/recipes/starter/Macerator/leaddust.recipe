@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "galenaore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "leaddust",
+    "count" : 2
+  },
+  "groups" : [ "Macerator", "all" ]
+}

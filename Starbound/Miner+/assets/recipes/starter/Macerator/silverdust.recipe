@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silverore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "silverdust",
+    "count" : 2
+  },
+  "groups" : [ "Macerator", "all" ]
+}
