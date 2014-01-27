@@ -12,7 +12,7 @@
   "shortdescription" : "Wooden Crafting Table",
   "race" : "generic",
   "category" : "crafting",
-  "price" : "200",
+  "price" : 200,
   
   "learnBlueprintsOnPickup" : [ "macerator" ],
 
