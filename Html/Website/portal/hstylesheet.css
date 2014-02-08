@@ -1,0 +1,23 @@
+html{
+    background-image : url(bg-01.jpg);
+    background-repeat:no-repeat;
+    background-size:1920px 1600px;
+    background-position:fixed;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+li
+{
+float:left;
+background:green;
+}
+a
+{
+display:block;
+width:60px;
+text-decoration: none ;
+color: lightblue;
+}
